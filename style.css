@@ -30,6 +30,7 @@ nav a:hover {
 
 main {
   padding: 2em;
+  padding-bottom: 4em;
   max-width: 900px;
   margin: auto;
 }
@@ -43,9 +44,12 @@ img {
 }
 
 footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
   background: #0a4275;
   color: white;
   text-align: center;
   padding: 1em;
-  margin-top: 2em;
 }
+
